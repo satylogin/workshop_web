@@ -16,9 +16,11 @@
   <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="./assets/favicon.ico" rel="icon">
 
-  <title>Title page</title>  
+  <title>WORKSHOP</title>  
 
-<link href="./main.97292821.css" rel="stylesheet"></head>
+<link href="./main.css" rel="stylesheet">
+<link href="./style.css" rel="stylesheet">
+</head>
 
 <body>
 
@@ -38,10 +40,9 @@
       <div class="navbar-collapse">
         <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="./index.html#contact-section-container" title="" class="anchor-link">Contact Us</a></li>
             <li>
                 <p>
-                    <a href="./components.html" class="btn btn-default navbar-btn" >Components</a>
+                    <a href="./components.html" class="btn btn-default navbar-btn" >Previous Page</a>
                 </p>
             </li>
 
@@ -56,24 +57,27 @@
 
 
 <!-- Add your site or app content here -->
-<div class="background-image-container white-text-container" style="background-image: url('./assets/images/img-05.jpg')">
+<div class="background-image-container white-text-container">
+	<video autoplay muted loop id="myVideo">
+		<source src="./assets/images/video.mp4" type="video/mp4">
+	</video>
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h1>The Factory</h1>
-                <p class="">THE BEST PLACE FOR WORK TOGETHER</p>
-                <a href="#contact-section-container" class="btn btn-primary btn-lg anchor-link" title="">Get in touch</a>
+                <h1 style = "color:darkcyan;">TECHINEST WORKSHOP</h1>
+		    <h2><p class="" style = "color:darkcyan;">IN ASSOCIATION WITH TOPBOT 3.0</p></h2>
+                <a href="#contact-section-container" class="btn btn-primary btn-lg anchor-link" title=""><h3>REGISTER</h3></a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section-container">
+<div class="section-container" style = "background-color: darkcyan;">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12 section-container-spacer">
-                <h2 class="text-center">Vivamus laoreet</h2>
+                <h2 class="text-center">ABOUT WORKSHOP</h2>
             </div>
         </div>
         <div class="row">
@@ -110,12 +114,9 @@
 </div>
 
 <div class="section-container section-half-background-image-container">
-    <div class="image-column" style="background-image: url('./assets/images/img-01.jpg')"></div>
+	<div class="image-column" style="background-image: url('./assets/images/test7.jpg')"></div>
     <div class="container">
         <div class="row">
-            <div class="section-label reveal">
-                <p>Coworking</p>
-            </div>
             <div class="col-md-6 col-md-offset-6 text-column">
                 <h2>Dui augue orci</h2>
                 <h3>Lorem ipsum</h3>
@@ -136,7 +137,7 @@
 
 
 
-<div class="section-container">
+<div class="section-container" style = "background-color: darkcyan;">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12 section-container-spacer">
@@ -190,49 +191,6 @@
                         <p>Mon - Fri : 9AM - 5PM</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="section-container" id="contact-section-container">
-    <div class="container contact-form-container">
-        <div class="row">
-            <div class="col-xs-12 col-md-offset-2 col-md-8">
-                <div class="section-container-spacer">
-                    <h2 class="text-center">Get in touch</h2>
-                </div>
-                <form action="">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" name="name" class="form-control" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control" placeholder="Email">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <textarea class="form-control" rows="3" placeholder="Enter your message"></textarea>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="checkbox-inline">
-                            <input type="checkbox" id="inlineCheckbox1" value="option1">Email me a copy
-                        </label>
-                        <label class="checkbox-inline">
-                            <input type="checkbox" id="inlineCheckbox2" value="option2">I am a human
-                        </label>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">Send message</button>
-                    <a href="" class="btn btn-default">Reset</a>
-                </form>
             </div>
         </div>
     </div>
