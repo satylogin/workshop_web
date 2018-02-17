@@ -33,3 +33,7 @@
     background: #ddd;
     color: black;
 }
+
+.col-md-6 > ul > li > p{
+	color: lightgrey;
+}
